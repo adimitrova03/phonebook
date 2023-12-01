@@ -6,15 +6,15 @@ A phonebook simulation application built on Angular
 
 Use npm install to install the node modules.
 
-bash
+```bash
 npm install
-
+```
 
 Use Angular Cli to start the project.
 
-bash
+```bash
 ng serve
-
+```
 
 ## User manual
 
