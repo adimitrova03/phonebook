@@ -1,0 +1,22 @@
+<div class="flex justify-center items-center h-screen">
+    <div *ngIf="(contacts | async) as view; else spinner" class="phonebook-wrapper bg-neutral-800 rounded-md p-4">
+        <div class="header-pannel">
+            <div class="flex justify-between">
+                <h2 class="text-neutral-200">Contacts</h2>
+                <button mat-button class="text-neutral-200" (click)="addContact()">Add</button>
+            </div>
+
+            <!-- <input matInput placeholder="Search" (input)="onSearch($event)" /> -->
+            <mat-form-field class="w-full">
+                <mat-label>Search</mat-label>
+                <input matInput placeholder="Search by name, mobile or home number" (input)="onSearch($event)" />
+            </mat-form-field>
+
+        </div>
+        <app-contacts-list [contacts]="view"></app-contacts-list>
+    </div>
+    
+    <ng-template #spinner>
+        <mat-spinner></mat-spinner>
+    </ng-template>
+</div>

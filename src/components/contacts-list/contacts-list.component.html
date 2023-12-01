@@ -1,0 +1,13 @@
+<mat-list *ngIf="contacts.length">
+    <mat-list-item *ngFor="let contact of contacts" class="block" (click)="selectedContact(contact)">
+
+        <mat-icon matListItemAvatar fontIcon="person"></mat-icon>
+
+        <span matListItemTitle>{{ contact.firstName }} {{ contact.lastName }}</span>
+        <span matListItemLine>{{ contact.mobile && contact.mobile }}{{ contact.mobile && contact.home ? ';' : ''}} {{ contact.home && contact.home }}</span>
+
+        <span>
+            <mat-divider></mat-divider>
+        </span>
+    </mat-list-item>
+</mat-list>

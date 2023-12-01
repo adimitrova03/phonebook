@@ -1,0 +1,116 @@
+{
+    "contacts": [
+      {
+        "id": "1",
+        "firstName": "Pesho",
+        "lastName": "Stoyanov",
+        "fullName": "Pesho Stoyanov",
+        "home": "454545",
+        "mobile": "0883232323"
+      },
+      {
+        "id": "2",
+        "firstName": "Georgi",
+        "lastName": "Petrov",
+        "fullName": "Georgi Petrov",
+        "home": "475234",
+        "mobile": "0878235423"
+      },
+      {
+        "id": "3",
+        "firstName": "Katya",
+        "lastName": "Petrova",
+        "fullName": "Katya Petrova",
+        "home": "475234",
+        "mobile": "0882457864"
+      },
+      {
+        "id": "4",
+        "firstName": "Maria",
+        "lastName": "Petrova",
+        "fullName": "Maria Petrova",
+        "home": "475234",
+        "mobile": "0889435464"
+      },
+      {
+        "id": "5",
+        "firstName": "Nikolay",
+        "lastName": "Naydenov",
+        "fullName": "Nikolay Naydenov",
+        "home": "",
+        "mobile": "0888235423"
+      },
+      {
+        "id": "6",
+        "firstName": "Petya",
+        "lastName": "Nikolova",
+        "fullName": "Petya Nikolova",
+        "home": "",
+        "mobile": "0885345423"
+      },
+      {
+        "id": "7",
+        "firstName": "Boryana",
+        "lastName": "Pavlova",
+        "fullName": "Boryana Pavlova",
+        "home": "234534",
+        "mobile": ""
+      },
+      {
+        "id": "8",
+        "firstName": "Penka",
+        "lastName": "Stoykova",
+        "fullName": "Penka Stoykova",
+        "home": "414429",
+        "mobile": ""
+      },
+      {
+        "id": "9",
+        "firstName": "Martin",
+        "lastName": "Stankov",
+        "fullName": "Martin Stankov",
+        "home": "",
+        "mobile": "0884348274"
+      },
+      {
+        "id": "10",
+        "firstName": "Angel",
+        "lastName": "Gospodinov",
+        "fullName": "Angel Gospodinov",
+        "home": "",
+        "mobile": "0884582345"
+      },
+      {
+        "id": "11",
+        "firstName": "Alexi",
+        "lastName": "Ivanov",
+        "fullName": "Alexi Ivanov",
+        "home": "",
+        "mobile": "0878340685"
+      },
+      {
+        "id": "12",
+        "firstName": "Andrey",
+        "lastName": "Vasilev",
+        "fullName": "Andrei Vasilev",
+        "home": "",
+        "mobile": "0885340984"
+      },
+      {
+        "id": "13",
+        "firstName": "Anna",
+        "lastName": "Petkova",
+        "fullName": "Anna Petkova",
+        "home": "509387",
+        "mobile": "0898344343"
+      },
+      {
+        "id": "14",
+        "firstName": "Radoslav",
+        "lastName": "Vasilev",
+        "fullName": "Radoslav Vasilev",
+        "home": "509387",
+        "mobile": "0884549800"
+      }
+    ]
+}

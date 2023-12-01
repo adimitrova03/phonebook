@@ -1,0 +1,30 @@
+<div class="p-6 flex flex-col justify-center items-center">
+    <h2 class="text-neutral-200">{{ data ? 'Edit Contact' : 'Create Contact' }}</h2>
+
+    <form [formGroup]="contactForm">
+        <mat-form-field class="w-full">
+            <mat-label>First Name</mat-label>
+            <input matInput formControlName="firstName">
+        </mat-form-field>
+        
+        <mat-form-field class="w-full">
+            <mat-label>Last Name</mat-label>
+            <input matInput formControlName="lastName">
+        </mat-form-field>
+        
+        <mat-form-field class="w-full">
+            <mat-label>Home Number</mat-label>
+            <input matInput formControlName="home">
+        </mat-form-field>
+        
+        <mat-form-field class="w-full">
+            <mat-label>Mobile Number</mat-label>
+            <input matInput formControlName="mobile">
+        </mat-form-field>
+    </form>
+
+    <div class="flex justify-around items-center">
+        <button mat-button class="text-neutral-200" (click)="addContact()">{{ data ? 'Edit Contact' : 'Create Contact' }}</button>
+        <button mat-button class="text-neutral-200" (click)="deleteContact()">Delete Contact</button>
+    </div>
+</div>
