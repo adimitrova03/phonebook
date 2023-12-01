@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { ContactModel } from '../../models/contact.model';
 import { CommonModule } from '@angular/common';
 import { MatDividerModule } from '@angular/material/divider';
@@ -15,19 +15,10 @@ import { ContactEditComponent } from '../contact-edit/contact-edit.component';
   styleUrl: './contacts-list.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ContactsListComponent implements OnInit {
+export class ContactsListComponent {
   @Input() public contacts!: ContactModel[];
-  // public sortedContacts: ContactModel[] = []
 
   constructor(private readonly dialog: MatDialog) {}
-
-  ngOnInit(): void {
-    // console.log('con', this.sortedContacts)
-    // console.log('contacts', this.contacts.length, this.contacts)
-    // Object.freeze(this.contacts)
-    
-    // this.sortedContacts =  this.contacts?.sort((a, b) => a.firstName.localeCompare(b.firstName))//.sort((a, b) => a.firstName.localeCompare(b.firstName));
-  }
 
   selectedContact(contact: ContactModel): void {
     this.dialog.open(ContactEditComponent, {

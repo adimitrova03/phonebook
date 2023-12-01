@@ -5,10 +5,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { ContactsService } from '../../services/contacts.service';
 import { Store } from '@ngrx/store';
 import { ContactsModel } from '../../models/contacts.model';
-import { deleteContact, editContact, addContact } from '../store/contacts.actions';
+import { deleteContact, editContact, addContact } from '../../store/contacts.actions';
 
 
 @Component({
@@ -31,7 +30,6 @@ export class ContactEditComponent {
 
   constructor(
     public dialogRef: MatDialogRef<ContactEditComponent>,
-    private readonly contactsService: ContactsService,
     private store: Store<{ contacts: ContactsModel }>,
     @Inject(MAT_DIALOG_DATA) public data: ContactModel
   ) {}

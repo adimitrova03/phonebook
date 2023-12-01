@@ -1,6 +1,6 @@
 import { Action, createReducer, on } from '@ngrx/store';
 import { addContact, deleteContact, editContact, searchContacts, setContacts } from './contacts.actions';
-import { ContactModel } from '../../models/contact.model';
+import { ContactModel } from '../models/contact.model';
 
 export const featureKey = 'createContactsStore';
 

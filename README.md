@@ -1,27 +1,25 @@
 # Phonebook
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+A phonebook simulation application built on Angular
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Use npm install to install the node modules.
 
-## Code scaffolding
+bash
+npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Use Angular Cli to start the project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+bash
+ng serve
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## User manual
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Contacts are called from a text file. Each contact can have two types of phone number - mobile and home. Multiple contacts can share the same phone number.
+Added search, searching by number or name. When entering a character in the search input, the possible results are displayed.
+There is a button 'add' that can add new contact. Editing and deleting contacts can be done by clicking on the contact you want. New dialog will be opened.
+Data is stored in redux storage.
+Angular Material and Tailwind are used for the UI part.

@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store';
-import { ContactModel } from '../../models/contact.model';
+import { ContactModel } from '../models/contact.model';
 
 export const setContacts = createAction(
     '[Contacts] SET_CONTACTS',
